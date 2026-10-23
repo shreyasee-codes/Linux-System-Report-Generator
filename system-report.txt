@@ -1,0 +1,43 @@
+========================================
+         LINUX SYSTEM REPORT            
+         Date: Fri Oct 23 11:07:45 AM EDT 2026                  
+========================================
+
+--- HOSTNAME ---
+kali
+
+--- KERNEL VERSION ---
+6.12.13-amd64
+
+--- DISK USAGE ---
+Filesystem      Size  Used Avail Use% Mounted on
+udev            917M     0  917M   0% /dev
+tmpfs           197M  1.3M  196M   1% /run
+/dev/sda1        79G   15G   60G  20% /
+tmpfs           983M  4.0K  983M   1% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           983M  100K  983M   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           197M  128K  197M   1% /run/user/1000
+
+--- MEMORY USAGE ---
+               total        used        free      shared  buff/cache   available
+Mem:           1.9Gi       728Mi       737Mi        13Mi       657Mi       1.2Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+--- TOP RUNNING PROCESSES ---
+    PID USER     %CPU %MEM COMMAND
+  12675 kali      400  0.2 ps
+  12669 kali     50.0  0.1 system_report.s
+   1168 root      1.9  6.3 Xorg
+   1477 kali      0.8  2.5 xfwm4
+   1933 kali      0.5  3.2 qterminal
+   1977 kali      0.5  0.3 zsh
+   1714 kali      0.5  1.4 wrapper-2.0
+   1712 kali      0.5  3.0 wrapper-2.0
+   1574 kali      0.2  1.9 vmtoolsd
+    602 root      0.2  0.4 vmtoolsd
+
+========================================
+          END OF REPORT                 
